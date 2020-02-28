@@ -29,6 +29,8 @@ jobs:
 
 before_script:
   - env
+  - git submodule update --init --recursive
+  - git submodule update --remote  
   - mkdir build
   - cd build
   - cmake -G Ninja --config Debug ..
