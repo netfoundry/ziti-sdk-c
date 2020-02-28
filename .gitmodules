@@ -9,7 +9,7 @@
 [submodule "deps/uv-mbed"]
 	path = deps/uv-mbed
 	url = https://github.com/NetFoundry/uv-mbed.git
-	branch = master
+	branch = bio-rename
 [submodule "deps/subcommand"]
 	path = deps/subcommand
 	url = https://github.com/dimitri/subcommands.c.git
